@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f61fdfd3f2368154c807eaf1218a397e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bernardo Beveled
+  fontNames:
+  - Bernardo Beveled
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e11749095b2221a43999467a460fe96c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

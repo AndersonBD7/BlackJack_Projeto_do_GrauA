@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a6bd42b6eabdaee4ea492438528b2335
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 'Golden Dragon '
+  fontNames:
+  - 'Golden Dragon '
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 42ac78d52147c1b43b54bb67ec371c5d, type: 3}
+  - {fileID: 12800000, guid: 8b6b59164d3f617438dd397b4cf92f65, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

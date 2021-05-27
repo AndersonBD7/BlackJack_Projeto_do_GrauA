@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Rei de Copas
   valores: 10
   naipe: 0
-  imagem: {fileID: 21300000, guid: 5dc5dec7e0315304d9eca8d4fb700b22, type: 3}
+  imagem: {fileID: 21300000, guid: a3be72f7a49fd2944b39e57693094f9b, type: 3}

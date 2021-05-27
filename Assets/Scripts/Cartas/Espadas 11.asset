@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: Valete de Espadas
   valores: 10
   naipe: 1
-  is_as: 0
-  imagem: {fileID: 21300000, guid: 06d8a168c00b761409ccc3d62dd5fb20, type: 3}
+  imagem: {fileID: 21300000, guid: 66df4b103c3ab924889527c958ac292c, type: 3}

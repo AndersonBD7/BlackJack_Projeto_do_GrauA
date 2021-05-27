@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: As de Ouro
   valores: 1
   naipe: 2
-  is_as: 1
-  imagem: {fileID: 21300000, guid: 0a232957b2ccd9541a2bfad5b030ac06, type: 3}
+  imagem: {fileID: 21300000, guid: abb32fb3df453aa42b768e6ae57c2b6f, type: 3}

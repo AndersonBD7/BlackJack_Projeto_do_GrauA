@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: 9 de Ouro
   valores: 9
   naipe: 2
-  is_as: 0
-  imagem: {fileID: 21300000, guid: ac2ddedfb6eca1e42a99def2df953ec0, type: 3}
+  imagem: {fileID: 21300000, guid: 4f12f8f11c3f5d14987d595f24f60130, type: 3}

@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: 6 de Ouro
   valores: 6
   naipe: 2
-  is_as: 0
-  imagem: {fileID: 21300000, guid: cfcb8b3271545b347bca7c973364df34, type: 3}
+  imagem: {fileID: 21300000, guid: ee52a592b20dcdf4a83caf77325ec8a7, type: 3}

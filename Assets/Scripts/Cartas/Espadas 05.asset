@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: 5 de Espadas
   valores: 5
   naipe: 1
-  is_as: 0
-  imagem: {fileID: 21300000, guid: 0f8dc712f40458642a4b2ffeecb3aab1, type: 3}
+  imagem: {fileID: 21300000, guid: 1903348b88afa414ebf485dc6ea788b7, type: 3}

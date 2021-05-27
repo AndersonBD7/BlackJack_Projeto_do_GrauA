@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: Rainha de Paus
   valores: 10
   naipe: 3
-  is_as: 0
-  imagem: {fileID: 21300000, guid: ea3ef195738805e4cb3187b9d3f94869, type: 3}
+  imagem: {fileID: 21300000, guid: 04911917c9d621b4e9ea4ef5a54978c0, type: 3}

@@ -118,7 +118,7 @@ public class Game_Controller_Script : MonoBehaviour
                 stand = true;
                 dealer.Vitorias++;
                 resultado_texto.color = Color.red;
-                resultado_texto.text = "Player Loser";
+                resultado_texto.text = "Dealer Wins";
                 Instantiate(resultado, transform);
                 audio.sound_loser();
             }
@@ -131,7 +131,7 @@ public class Game_Controller_Script : MonoBehaviour
                 {
                     dealer.Vitorias++;
                     resultado_texto.color = Color.red;
-                    resultado_texto.text = "Player Loser";
+                    resultado_texto.text = "Dealer Wins";
                     Instantiate(resultado, transform);
                     audio.sound_loser();
                 }

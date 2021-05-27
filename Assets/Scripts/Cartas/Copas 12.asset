@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Rainha de Copas
   valores: 10
   naipe: 0
-  imagem: {fileID: 21300000, guid: 582e2c960a9f94f48b82e40b8da5dfeb, type: 3}
+  imagem: {fileID: 21300000, guid: 0d81bad193126b745932d8e5b9b18690, type: 3}

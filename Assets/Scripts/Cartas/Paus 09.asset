@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: 9 de Paus
   valores: 9
   naipe: 3
-  is_as: 0
-  imagem: {fileID: 21300000, guid: b43b024bce7f2a741a81c043aeb6f350, type: 3}
+  imagem: {fileID: 21300000, guid: ac1600091cf94dd49945a123ba347026, type: 3}

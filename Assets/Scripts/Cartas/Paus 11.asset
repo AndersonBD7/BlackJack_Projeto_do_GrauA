@@ -15,5 +15,4 @@ MonoBehaviour:
   nome: Valete de Paus
   valores: 10
   naipe: 3
-  is_as: 0
-  imagem: {fileID: 21300000, guid: ae3ea457e0efb734cb0fe0adc828be5c, type: 3}
+  imagem: {fileID: 21300000, guid: 696eeb9c2c49d394caf96b530dd39080, type: 3}

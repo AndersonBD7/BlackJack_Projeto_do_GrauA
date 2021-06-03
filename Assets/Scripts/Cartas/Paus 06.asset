@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: 6 de Paus
   valores: 6
   naipe: 3
-  imagem: {fileID: 21300000, guid: e1fc4b23901b188438f8595bf821fca5, type: 3}
+  id: 45

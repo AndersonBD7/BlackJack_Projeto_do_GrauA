@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Rainha de Ouro
   valores: 10
   naipe: 2
-  imagem: {fileID: 21300000, guid: deab35b0485a42544b149973ec2260f3, type: 3}
+  id: 38

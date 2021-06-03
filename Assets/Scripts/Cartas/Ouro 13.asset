@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Rei de Ouro
   valores: 10
   naipe: 2
-  imagem: {fileID: 21300000, guid: ae19c34accae6dd43b7975ec894616cf, type: 3}
+  id: 39

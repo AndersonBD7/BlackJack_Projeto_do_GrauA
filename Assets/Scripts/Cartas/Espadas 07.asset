@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: 7 de Espadas
   valores: 7
   naipe: 1
-  imagem: {fileID: 21300000, guid: 4f13d6206e789d04ebea5a7c897d6a68, type: 3}
+  id: 20

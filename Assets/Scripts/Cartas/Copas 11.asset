@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Valete de Copas
   valores: 10
   naipe: 0
-  imagem: {fileID: 21300000, guid: 20ad8a027e16636449b735e0d9b9c04a, type: 3}
+  id: 11

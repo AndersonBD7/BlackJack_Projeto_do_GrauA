@@ -1,70 +1,68 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Audio_Controller_Script : MonoBehaviour
 {
-    #region variaveis
-    [Header("Audio Controu")]
-    [Range(0, 1)]
-    [SerializeField] private float audio_volume = 0;
-    [SerializeField] private AudioClip audio_win;
-    [SerializeField] private AudioClip audio_loser;
-    [SerializeField] private AudioClip audio_flip_card;
-    [SerializeField] private AudioSource audio_som;
-    [SerializeField] private Image audio_image;
-    [SerializeField] private Sprite audio_image_on;
-    [SerializeField] private Sprite audio_image_off;
-    //[SerializeField] private GameObject audio_slider;
-    private float audio_volume_aux = 0;
-    public float Audio_volume { set { audio_volume = value; } get { return audio_volume; } }
-    #endregion
+    [SerializeField] private Image Audio_Button;
+    [SerializeField] private Sprite Audio_On;
+    [SerializeField] private Sprite Audio_Off;
+
+    [SerializeField] private Slider Volume;
+    private float Volume_aux = 0;
+   
+    [SerializeField] private AudioClip Audio_win;
+    [SerializeField] private AudioClip Audio_loser;
+    [SerializeField] private AudioClip Audio_flip_card;
+    [SerializeField] private AudioSource Audio;
+
     void Start()
     {
-        audio_volume = AudioListener.volume;
+        Volume.value = AudioListener.volume;
     }
+
+    // Update is called once per frame
     void Update()
     {
-        Audio_Status();
-    }
-    #region metodos
-    void Audio_Status()
-    {
-        AudioListener.volume = audio_volume;
-        if (audio_volume == 0)
+        AudioListener.volume = Volume.value;
+
+        if (Volume.value == 0)
         {
-            audio_image.sprite = audio_image_off;
+            Audio_Button.sprite = Audio_Off;
         }
         else
         {
-            audio_image.sprite = audio_image_on;
+            Audio_Button.sprite = Audio_On;
         }
     }
+
     public void Button_Audio()
     {
-        if (audio_volume == 0)
+        if (Volume.value == 0)
         {
-            audio_volume = audio_volume_aux;
-            audio_volume_aux = 0;
+            Volume.value = Volume_aux;
+            Volume_aux = 0;
         }
         else
         {
-            audio_volume_aux = audio_volume;
-            audio_volume = 0;
+            Volume_aux = Volume.value;
+            Volume.value = 0;
         }
     }
+
     public void sound_loser()
     {
-        audio_som.PlayOneShot(audio_loser);
+        Audio.PlayOneShot(Audio_loser);
     }
+
     public void sound_win()
     {
-        audio_som.PlayOneShot(audio_win);
+        Audio.PlayOneShot(Audio_win);
     }
+
     public void sound_flip_card()
     {
-        audio_som.PlayOneShot(audio_flip_card);
+        Audio.PlayOneShot(Audio_flip_card);
     }
-    #endregion
 }

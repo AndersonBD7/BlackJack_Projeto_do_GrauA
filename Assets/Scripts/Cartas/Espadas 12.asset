@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Rainha de Espadas
   valores: 10
   naipe: 1
-  imagem: {fileID: 21300000, guid: cbdfe1ef3299798498cd82621fc8f996, type: 3}
+  id: 25

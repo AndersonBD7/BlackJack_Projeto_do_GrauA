@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: 8 de Copas
   valores: 8
   naipe: 0
-  imagem: {fileID: 21300000, guid: 16607856d3e33394b9a1dacd9a0f8964, type: 3}
+  id: 8

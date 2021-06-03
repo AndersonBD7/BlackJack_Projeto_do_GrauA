@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: Valete de Ouro
   valores: 10
   naipe: 2
-  imagem: {fileID: 21300000, guid: 31676ed70612b8245ab22d2b6986fb26, type: 3}
+  id: 37

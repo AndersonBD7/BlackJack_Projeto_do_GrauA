@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: 8 de Ouro
   valores: 8
   naipe: 2
-  imagem: {fileID: 21300000, guid: 4e2fec4e4ab75d7479314a6aa3b0de81, type: 3}
+  id: 34

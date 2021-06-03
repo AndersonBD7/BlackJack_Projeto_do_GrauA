@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: 8 de Paus
   valores: 8
   naipe: 3
-  imagem: {fileID: 21300000, guid: 90a089d849e75f847ab5474059539d8e, type: 3}
+  id: 47

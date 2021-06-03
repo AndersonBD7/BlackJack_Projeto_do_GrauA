@@ -15,4 +15,4 @@ MonoBehaviour:
   nome: 2 de Ouro
   valores: 2
   naipe: 2
-  imagem: {fileID: 21300000, guid: 690e45d216faa434baa02c9fcf93a608, type: 3}
+  id: 28

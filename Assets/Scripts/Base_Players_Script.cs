@@ -5,8 +5,8 @@ using UnityEngine;
 public class Base_Players_Script : MonoBehaviour
 {
     [SerializeField] private List<Carta_Script> cartas;
-    [SerializeField] private int pontos = 0;
-    [SerializeField] private int vitorias = 0;
+    public int pontos = 0;
+    public int vitorias = 0;
     [SerializeField] private int as_in_Hand = 0;
 
     public int Pontos
@@ -36,12 +36,12 @@ public class Base_Players_Script : MonoBehaviour
     }
 
     public int As_in_Hand
-    { 
-        get 
+    {
+        get
         {
-            return as_in_Hand; 
-        } 
-        set 
+            return as_in_Hand;
+        }
+        set
         {
             as_in_Hand = value;
         }

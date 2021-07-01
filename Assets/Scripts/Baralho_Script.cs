@@ -5,18 +5,18 @@ using UnityEngine;
 public class Baralho_Script : MonoBehaviour
 {
     [SerializeField] private Carta_Script[] baralho = new Carta_Script[52];
-    [SerializeField] private List<string> cartas;
+    [SerializeField] private List<int> cartas;
 
     public void Reset_game()
     {
-        cartas = new List<string>();
+        cartas = new List<int>();
     }
 
     private bool Carta_Repetida(int i)
     {
-        foreach (string aux in cartas)
+        foreach (int aux in cartas)
         {
-            if (baralho[i].Nome == aux)
+            if (baralho[i].Id == aux)
             {
                 return true;
             }
@@ -38,7 +38,7 @@ public class Baralho_Script : MonoBehaviour
             base_Players.As_in_Hand++;
         }
 
-        cartas.Add(baralho[i].Nome);
+        cartas.Add(baralho[i].Id);
         return baralho[i];
     }
 }

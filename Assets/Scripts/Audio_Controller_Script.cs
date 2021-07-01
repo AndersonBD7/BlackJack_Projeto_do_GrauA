@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Audio_Controller_Script : MonoBehaviour
 {
     [SerializeField] private Image Audio_Button;
@@ -11,7 +10,7 @@ public class Audio_Controller_Script : MonoBehaviour
 
     [SerializeField] private Slider Volume;
     private float Volume_aux = 0;
-   
+
     [SerializeField] private AudioClip Audio_win;
     [SerializeField] private AudioClip Audio_loser;
     [SerializeField] private AudioClip Audio_flip_card;
@@ -41,6 +40,10 @@ public class Audio_Controller_Script : MonoBehaviour
     {
         if (Volume.value == 0)
         {
+            if (Volume_aux == 0)
+            {
+                Volume_aux = 1;
+            }
             Volume.value = Volume_aux;
             Volume_aux = 0;
         }
